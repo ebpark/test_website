@@ -1,0 +1,23 @@
+#follow {
+	position: absolute; /* position must be set absolute in order for div to follow cursor */
+	float: right;
+
+	height: 50px;
+	width: 50px;
+	background: blue;
+}
+
+
+* {
+	cursor: none; /* hides default cursor */
+}
+
+#move {
+	position: relative;
+	left: 0px;
+	top: 0px;
+
+	height: 25px;
+	width: 25px;
+	background: orange;
+}
